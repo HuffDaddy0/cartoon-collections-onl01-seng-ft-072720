@@ -35,7 +35,6 @@ def long_planeteer_calls(calls)
     (call.length > 4)
   end
   puts new_calls
-  true
 end
 
 # def find_the_cheese(cheese_types)
