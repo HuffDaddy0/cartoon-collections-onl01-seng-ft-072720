@@ -1,4 +1,5 @@
 require 'pry'
+
 dwarves = [hi, hey, helo, hi]
 def roll_call_dwarves(dwarves)
   roll_call = []
