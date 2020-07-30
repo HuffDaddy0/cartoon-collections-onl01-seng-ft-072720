@@ -13,27 +13,31 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-new_call = []
-  calls.collect do |call|
-    new_call << call.capitalize + "!"
-  end# code an argument here
-new_call
-end
 
+  calls.map do |call|
+    call.capitalize + "!"
+  end
+
+end
+short_words = ["puff", "go", "two"]
+assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(calls)
-  t_f = []
-  calls.each do |call|
-    t_f << call.include?(call.length > 4)
+  # t_f = []
+  # calls.each do |call|
+  #   t_f << call.include?(call.length > 4)
+  # end
+  # if t_f.include?(true)
+  #   true
+  # else
+  #   false
+  # end
+  new_calls = calls.find do |call|
+    (call.length > 4)
   end
-  if t_f.include?(true)
-    true
-  else
-    false
-  end
-
+  binding.pry
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(cheese_types)
+  cheese_types.each do |cheese|
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
