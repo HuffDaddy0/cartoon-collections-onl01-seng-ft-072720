@@ -20,8 +20,17 @@ new_call = []
 new_call
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  t_f = []
+  calls.each do |call|
+    t_f << call.include?(call.length > 4)
+  end
+  if t_f.include?(true)
+    true
+  else
+    false
+  end
+
 end
 
 def find_the_cheese# code an argument here
