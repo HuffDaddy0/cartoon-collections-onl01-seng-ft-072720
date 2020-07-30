@@ -44,5 +44,6 @@ def find_the_cheese(array)
        element == cheese
     # binding.pry
   end
+  end
   result
 end
