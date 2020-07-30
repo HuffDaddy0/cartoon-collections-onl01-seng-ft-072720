@@ -40,9 +40,9 @@ end
 def find_the_cheese(array)
     cheese_types = ["cheddar", "gouda", "camembert"]
     result = array.find do |element|
-     cheese_types.each do |cheese|
+     cheese_types.find do |cheese|
        element == cheese
-    # binding.pry
+     binding.pry
   end
   end
   result
