@@ -9,9 +9,9 @@ def roll_call_dwarves(dwarves)
   end
   roll_call.each do |dwarf|
     puts dwarf
-  end 
-    
-  
+  end
+
+
 end
 
 def summon_captain_planet# code an argument here
