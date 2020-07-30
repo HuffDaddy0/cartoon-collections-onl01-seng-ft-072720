@@ -1,15 +1,19 @@
 require 'pry'
 
-dwarves = ["hi", "hey", "helo", "hi"]
+#dwarves = ["hi", "hey", "helo", "hi"]
 def roll_call_dwarves(dwarves)
   roll_call = []
   dwarves.each_with_index do |dwarf, index|
     roll_call.push("#{index + 1}. #{dwarf}")
     binding.pry
   end
-  roll_call.join(" ")
+  roll_call.each do |dwarf|
+    puts dwarf
+  end 
+    
+  
 end
-roll_call_dwarves(dwarves)
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
