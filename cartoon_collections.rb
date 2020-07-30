@@ -19,8 +19,8 @@ def summon_captain_planet(calls)
   end
 
 end
-short_words = ["puff", "go", "two"]
-assorted_words = ["two", "go", "industrious", "bop"]
+#short_words = ["puff", "go", "two"]
+#assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(calls)
   # t_f = []
   # calls.each do |call|
