@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarves)
     roll_call.push("#{index + 1}. #{dwarf}")
     binding.pry
   end
-  roll_call.join("")
+  roll_call.join(" ")
 end
 roll_call_dwarves(dwarves)
 def summon_captain_planet# code an argument here
