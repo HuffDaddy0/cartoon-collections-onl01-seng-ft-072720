@@ -37,7 +37,7 @@ def long_planeteer_calls(calls)
   !!new_calls
 end
 
-new 
+new
 
 def find_the_cheese(array)
   array.find do |element|
