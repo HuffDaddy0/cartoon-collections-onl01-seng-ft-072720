@@ -1,6 +1,6 @@
 require 'pry'
 
-dwarves = [hi, hey, helo, hi]
+dwarves = ["hi", "hey", "helo", "hi"]
 def roll_call_dwarves(dwarves)
   roll_call = []
   dwarves.each_with_index do |dwarf, index|
