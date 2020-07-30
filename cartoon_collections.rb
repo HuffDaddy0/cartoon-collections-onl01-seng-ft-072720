@@ -34,7 +34,7 @@ def long_planeteer_calls(calls)
   new_calls = calls.find do |call|
     (call.length > 4)
   end
-  new_calls
+  !!new_calls
 end
 
 # def find_the_cheese(cheese_types)
