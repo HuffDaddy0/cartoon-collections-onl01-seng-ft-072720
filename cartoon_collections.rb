@@ -40,7 +40,8 @@ end
 def find_the_cheese(array)
     cheese_types = ["cheddar", "gouda", "camembert"]
     result = array.find do |element|
-    element.include?(cheese_types)
+     cheese_types.each do |cheese|
+       element == cheese
     binding.pry
   end
   result
