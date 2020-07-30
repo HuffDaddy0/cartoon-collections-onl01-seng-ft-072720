@@ -34,7 +34,7 @@ def long_planeteer_calls(calls)
   new_calls = calls.find do |call|
     (call.length > 4)
   end
-  binding.pry
+  puts new_calls
   true
 end
 
